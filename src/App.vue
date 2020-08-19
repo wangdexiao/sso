@@ -1,11 +1,5 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
 <style lang="less">
@@ -29,4 +23,8 @@
     }
   }
 }
+
+* { margin: 0; padding: 0; }
+html { height: 100%; }
+body { height: 100%; background: #fff url(./assets/backgroud.png) 50% 50% no-repeat; background-size: cover;}
 </style>
