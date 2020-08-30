@@ -33,7 +33,7 @@ const ssoconfig = {
     sessionStorage.removeItem('username');
     sessionStorage.removeItem("roles");
     store.commit('setUserValue',null)
-    window.location = this.authServer + this.logoutUrl+ '?redirect_uri=http://192.168.1.100:8099/&access_token='+accessToken;
+    window.location = this.authServer + this.logoutUrl+ '?redirect_uri=http://139.9.139.63:8099/&access_token='+accessToken;
   },
 
 

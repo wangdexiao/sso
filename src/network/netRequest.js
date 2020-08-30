@@ -9,7 +9,7 @@ import store from '../store'
 export function request (config) {
 
   const instance = axios.create({
-    baseURL : 'http://192.168.1.100:5555/sso-server/',
+    baseURL : 'http://192.168.1.100:8000/',
     timeout : 500000000000,
     headers :{
       // 'X-Requested-With' : 'XMLHttpRequest',
